@@ -9,18 +9,18 @@ instead of following code
 
 ``` 
 if (!validationResult.Successed)
-            {
-                //do somethis
-            }
+{
+  //do somethis
+}
 ```
 with <b>Not</b> you change code like this :
 
 
 ``` 
 if (!validationResult.Successed)
-            {
-                //do somethis
-            }
+{
+ //do somethis
+}
 ```
             
 
@@ -30,13 +30,13 @@ if (!validationResult.Successed)
 one of the extension methods that <b>Not</b> provides is for `ModelStateDictionary` . with <b>Not</b> you can validate you model like this :
 ```
 [HttpPost]
-        public ActionResult Post(AddUserViewModel model)
-        {
-            if (ModelState.IsNotValid())
-            {
-                return BadRequest();
-            }
-            //do sth
-        }
+public ActionResult Post(AddUserViewModel model)
+{
+   if (ModelState.IsNotValid())
+   {
+     return BadRequest();
+   }
+   //do sth
+}
 
 ```
