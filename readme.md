@@ -16,7 +16,7 @@ instead of following code
 ``` 
 if (!validationResult.Successed)
 {
-  //do somethis
+  //do something
 }
 ```
 with <b>Not</b> you change code like this :
@@ -50,9 +50,9 @@ if (value.IsNotNullOrEmpty())
 - IsNotNullOrWhiteSpace
 ```
  if (value.IsNotNullOrWhiteSpace())
-            {
-
-            }
+{
+// do something
+}
             
 ```
             
