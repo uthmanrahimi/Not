@@ -2,6 +2,12 @@
 
 It provides some extension methods that make easy to apply `!` on  variables . With <b>Not</b> you do not need to use `!` in your code .
 
+# Install Package with nuget
+```
+
+Install-Package Not
+
+```
 
 # Boolean
 
