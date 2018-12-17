@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Authors>Uthman Rahimi</Authors>
+    <Company />
+    <Description>A simple and light library for .Net developers to apply Not on some variables :)</Description>
+    <Copyright>2018</Copyright>
+    <PackageProjectUrl>https://github.com/uthmanrahimi/Not</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/uthmanrahimi/Not</RepositoryUrl>
+    <PackageTags>c#</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
