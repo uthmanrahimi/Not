@@ -28,18 +28,18 @@ if (validationResult.Successed.Not())
 - Instead of 
 ```
  if (!string.IsNullOrEmpty(value))
-            {
-
-            }
+{
+// do something
+}
             
 ```
 
 you can write it like this :
 ```
 if (value.IsNotNullOrEmpty())
-            {
-
-            }
+{
+// do something
+}
 ```
 - IsNotNullOrWhiteSpace
 ```
