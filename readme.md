@@ -23,8 +23,32 @@ if (validationResult.Successed.Not())
 }
 ```
             
+# String
 
+- Instead of 
+```
+ if (!string.IsNullOrEmpty(value))
+            {
 
+            }
+            
+```
+
+you can write it like this :
+```
+if (value.IsNotNullOrEmpty())
+            {
+
+            }
+```
+- IsNotNullOrWhiteSpace
+```
+ if (value.IsNotNullOrWhiteSpace())
+            {
+
+            }
+            
+```
             
 # ModelState
 one of the extension methods that <b>Not</b> provides is for `ModelStateDictionary` . with <b>Not</b> you can validate you model like this :
