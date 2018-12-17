@@ -17,7 +17,7 @@ with <b>Not</b> you change code like this :
 
 
 ``` 
-if (!validationResult.Successed)
+if (validationResult.Successed.Not())
 {
  //do somethis
 }
