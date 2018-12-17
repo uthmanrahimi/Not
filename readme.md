@@ -4,6 +4,7 @@ It provides some extension methods that make easy to apply `!` on  variables . W
 
 
 # Boolean
+
 instead of following code 
 
 ``` 
@@ -15,12 +16,14 @@ if (!validationResult.Successed)
 with <b>Not</b> you change code like this :
 
 
-``` if (!validationResult.Successed)
+``` 
+if (!validationResult.Successed)
             {
                 //do somethis
-            }```
+            }
+```
             
-# String
+
 
             
 # ModelState
