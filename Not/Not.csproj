@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <!--<TargetFramework>netcoreapp2.1</TargetFramework>-->
@@ -6,14 +6,16 @@
     <Authors>Uthman Rahimi</Authors>
     <Company />
     <Description>A simple and light library for .Net developers to apply Not on some variables :)</Description>
-    <Copyright>2018</Copyright>
+    <Copyright>2020</Copyright>
     <PackageProjectUrl>https://github.com/uthmanrahimi/Not</PackageProjectUrl>
     <RepositoryUrl>https://github.com/uthmanrahimi/Not</RepositoryUrl>
     <PackageTags>c#</PackageTags>
+    <PackageId>MakeNot</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AspNetCore.Mvc.Routes.DebuggingLoggerMiddleware" Version="1.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.1.3" />
   </ItemGroup>
 
 </Project>
