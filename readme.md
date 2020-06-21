@@ -7,7 +7,7 @@
 
 To install MakeNot, run the following comman in the Package Manager Console .
 
-`Install-Package Not`
+`Install-Package MakeNot`
 
 # Usage and Methods
 
