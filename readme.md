@@ -1,6 +1,6 @@
 # What is MakeNot?
-`Not` is a small and lightweight library based on .NET Standard. `Not` provides some extention methods for different build-in types.
-> By using Not we no longer need to use ! operator in our code.
+`Not` is a small and lightweight library based on .NET Standard. `Not` provides some extention methods for different built-in types.
+> By using Not we no longer need to use `!` operator in our code.
 
 
 # Install via NuGet
