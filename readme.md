@@ -9,6 +9,9 @@ To install MakeNot, run the following comman in the Package Manager Console .
 
 `Install-Package MakeNot`
 
+Use following namespace :
+
+    using Not;
 # Usage and Methods
 
 ### 1-Boolean
